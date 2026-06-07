@@ -1,0 +1,10 @@
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# SITEMAP URL
+Sitemap: https://mustapha-official.github.io/WebNest/sitemap.xml
+
+# Block unnecessary files
+Disallow: /style.css
+Disallow: /script.js
