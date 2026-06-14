@@ -67,7 +67,7 @@ body{
   font-weight: bold;
 }
 
-.nav-container button{
+.nav-container .menu-Btn{
   display: none;
 }
 
@@ -117,6 +117,7 @@ body{
 .contents a:hover,
 .btn:hover{
   background-color: #93E691;
+  translate: transformX(-3px);
 }
 
 span{
@@ -133,6 +134,7 @@ span{
   width: 100%;
   border: none;
   height: auto;
+  object-fit: cover;
   max-height: 350px;
   border-radius: 0 0 20px 20px;
   border-bottom: 5px solid var(--secondary);
@@ -155,6 +157,10 @@ color: var(--secondary);
   padding: 80px 30px;
   text-align: center;
   color: var(--text);
+}
+
+.about p{
+  max-width: 420px;
 }
 
 .about h2{
@@ -359,7 +365,7 @@ form button {
 }
 
 @media (max-width: 600px) {
-.nav-container button {
+.nav-container .menu-Btn {
     display: block;
     border: none;
     padding: 5px 12px;
