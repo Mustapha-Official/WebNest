@@ -30,6 +30,7 @@
   <meta name="twitter:image" content="https://mustapha-official.github.io/WebNest/profile.jpg">
 
   <!-- FAVICON & ASSETS -->
+  <link rel="preload" as="image" href="profile.webp">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
@@ -46,7 +47,7 @@
         <h2><i class="fa-solid fa-globe"></i> Web<span class="span">Nest</span></h2>
       </div>
       
-      <button class="menu-Btn" onclick="toggleMenu ()"><i class="fa-solid fa-bars"></i></button>
+      <button aria-label="Open menu" class="menu-Btn" onclick="toggleMenu ()"><i class="fa-solid fa-bars"></i></button>
       <div class="nav-links">
         <ul>
           <li><a href="#home">Home</a></li>
@@ -76,7 +77,7 @@
           <a onclick="explore-btn ()" href="#services">Explore more</a>
         </div>
         <div class="contents">
-          <img src="profile.jpg" alt="Mustapha Gbanie" />
+          <img src="profile.webp" alt="Mustapha Gbanie" width="400" height="500"/>
         </div>
       </div>
       
@@ -132,7 +133,7 @@
       
       <div class="card-container">
         <div class="card">
-          <img src="simple-website.webp" alt="simple website" />
+          <img src="simple-website.webp" alt="simple website" loading="lazy"/>
           
           <h3>Simple website</h3>
           <p>A clean, professional, and fully responsive website — perfect for small brands or personal use. Includes: home page, about section, elegant hover effects, 2–4 content cards, and contact details.</p>
@@ -144,7 +145,7 @@
         </div>
         
         <div class="card">
-          <img src="standard-website.webp" alt="standard website" />
+          <img src="standard-website.webp" alt="standard website" loading="lazy"/>
           
           <h3>Standard website</h3>
           <p>A modern, visually appealing website optimized for all devices. Includes: home page, about section, 4–6 feature cards, interactive buttons, smooth animations, and hover effects.</p>
@@ -156,7 +157,7 @@
         </div>
         
         <div class="card">
-          <img src="premium-website.webp" alt="premium website" />
+          <img src="premium-website.webp" alt="premium website" loading="lazy"/>
           
           <h3>Premium website</h3>
           <p>A high-end, visually stunning website with premium design and functionality. Fully responsive, with professional UI, multiple content sections, interactive elements, animations, image sliders, and multi-page structure.</p>
