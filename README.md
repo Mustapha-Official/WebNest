@@ -1,4 +1,4 @@
-# WebNest | Mustapha Gbanie — Portfolio Website
+# Mustapha Gbanie | WebNest 
 
 **Live Demo:** https://mustapha-official.github.io/WebNest/
 **Author:** Mustapha Gbanie  
@@ -52,7 +52,6 @@ Also available: Professional CV design, business websites, personal portfolio, e
 **HTML** For page structuring and inserting images on the page.
 **CSS** For styling, animation and hover effects, and responsiveness for different devices.
 **JavaScript** For buttons alert pop up messages, erase form inputs after submission.
-**Ai assistant** For grammar correction, SEO plans, images polishing and card images.
 **Google search console** For perfect SEO on Google search engines.
 **Formspree** For form submission.
 **Font Awesome** For beautiful icons.
