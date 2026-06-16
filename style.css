@@ -154,13 +154,13 @@ color: var(--secondary);
 
 /*--ABOUT SECTION STYLE --*/
 .about{
-  padding: 80px 30px;
+  padding: 80px 20px;
   text-align: center;
   color: var(--text);
 }
 
 .about p{
-  max-width: 420px;
+  max-width: 1160px;
 }
 
 .about h2{
