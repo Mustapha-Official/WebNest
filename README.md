@@ -31,16 +31,16 @@ This is my professional portfolio website — built to showcase my skills, servi
 ---
 
 ## Services Offered
-1. **Simple Website** — $5.0 (SLL 114.84)
-2. **Standard Website** — $20.0 (SLL 459.36)
-3. **Premium Website** — $80.0 (SLL 1,837.00)
+1. **Simple Website** — $20.0 (SLL 459.36)
+2. **Standard Website** — $45.0 (SLL 1,034)
+3. **Premium Website** — $100.0 (SLL 2,297)
 
 Also available: Professional CV design, business websites, personal portfolio, etc...
 
 ---
 
 ## My Works [Portfolio]
-- [Biography Website](https://mustapha-official.github.io/Biography_Mustapha_Gbanie/)
+- [Zyvora Website](https://z-tech-os.github.io/Zyvora/)
 - [Fatima Collection — Business Site](https://mustapha-official.github.io/Fatima_Collection/)
 - [Autobiography Website](https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/)
 
