@@ -41,7 +41,7 @@ body p{font-size: clamp(1rem, 1.5vw, 1.2rem);}
 body{
   background-color: var(--background);
   color: var(--text);
-  line-height: 1.6;
+  line-height: 1.5;
   transition: 0.5s;
 }
 
@@ -349,13 +349,9 @@ form button {
   text-align: center;
 }
 
-.links .fa-facebook{color: #008AFF;}
-.links .fa-whatsapp{color: #2DC966;}
-.links .fa-youtube{color: #DD0606;}
-.links .fa-tiktok{color: #E41084;}
-.links .fa-linkedin{color: #00C8FF;}
-.links .fa-pinterest{color: #FF3D3D;}
-
+.links a i{
+  color: var(--secondary);
+}
 
 /*--FOOTER SECTION STYLE --*/
 .footer{
