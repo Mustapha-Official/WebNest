@@ -10,7 +10,7 @@ function priceBtn() {
 
 // PORTFOLIO BUTTONS
 function bio() {
-  alert("You're opening Mustapha's biography, his life, challenges, inspirations and journey on an external website.");
+  alert("Discover my brand (Zyvora).");
 }
 
 function fatima() {
