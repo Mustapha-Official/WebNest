@@ -11,11 +11,11 @@
     
 :root{
   --background: #0C0C0C;
-  --cards: #0A0D17;
+  --cards: #0a1710;
   --primary: #101111;
-  --secondary: #189960;
+  --secondary: #009439;
   --text: #AAAAAA;
-  --ancient: #FFFFFF;
+  --ancient: #e0e2e0;
 }
 
 h1{font-size: clamp(2rem, 5vw, 4rem );}
@@ -86,18 +86,18 @@ body{
 
 /*--HERO / HOME SECTION STYLE --*/
 .hero{
-  background-image: linear-gradient(120deg, #070B11, #092719);
+  background-image: linear-gradient(120deg, #07110a, #092719);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 150px 20px;
+  padding: 120px 20px;
 }
 
 .hero-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 25px;
 }
 
 .contents{
@@ -116,7 +116,7 @@ body{
 
 .contents a:hover,
 .btn:hover{
-  background-color: #93E691;
+  background-color: #5aad58;
   translate: transformX(-3px);
 }
 
@@ -253,7 +253,9 @@ color: var(--secondary);
 
 .card img{
   width: 100%;
+  height: 300px;
   border-radius: 10px;
+  overflow-y: hidden;
 }
 
 /*--PORTFOLIO SECTION STYLE*/
@@ -293,15 +295,15 @@ form{
 input, textarea{
   width: 100%;
   padding: 15px 10px;
-  background-color: #4B514E;
-  color: #FCFCFC;
-  border-radius: 10px;
+  background-color: #272727;
+  color: #d3d3d3;
+  border-radius: 6px;
   border: none;
 }
 
 input::placeholder,
 textarea::placeholder{
-  color: #C2C2C2;
+  color: #888888;
   font-style: italic;
 }
 
