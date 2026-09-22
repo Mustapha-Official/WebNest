@@ -15,7 +15,7 @@
   --primary: #101111;
   --secondary: #009439;
   --text: #AAAAAA;
-  --ancient: #e0e2e0;
+  --ancient: #cdcfcd;
 }
 
 h1{font-size: clamp(2rem, 5vw, 4rem );}
@@ -63,7 +63,7 @@ body{
 
 .logo{
   color: var(--secondary);
-  animation: blink 2s infinite;
+  animation: blink 4s infinite;
   font-weight: bold;
 }
 
