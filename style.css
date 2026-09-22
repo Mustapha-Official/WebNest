@@ -91,11 +91,12 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 25px;
+  gap: 10px;
 }
 
 .contents{
   padding: 10px;
+  width: 100%;
   max-width: 500px;
 }
 
@@ -130,8 +131,7 @@ span{
   height: auto;
   object-fit: cover;
   max-height: 350px;
-  border-radius: 0 0 20px 20px;
-  border-bottom: 5px solid var(--secondary);
+  border-radius: 7px;
 }
 
 .contents h1{
